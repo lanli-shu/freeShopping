@@ -1,0 +1,95 @@
+/* 头部 */
+
+#header>div>a {
+    margin-left: 272px; 
+}
+/* 导航 */
+#nav .wrap{
+font-size: 30px;
+color: #666666;
+
+}
+#nav{
+    height: 77px;
+    box-shadow: 0px 3px 6px 0px rgb(221, 221, 221);
+}
+
+#nav .wrap span{ 
+    font-size: 24px;
+    color: #a6a6a6;
+    margin-top: 30px;
+}
+#nav .wrap span >a{
+    font-size: 24px;
+}
+.content{
+    border-bottom: 2px solid #e6e6e6;
+    margin-bottom: 24px;
+}
+#userform{
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 56px;
+}
+#userform>div{
+    width: 400px;
+ line-height:40px;
+    border: 1px solid #ccc;
+    margin-bottom: 48px;
+    font-size: 20px;
+    color: #333333;
+    padding-left: 10px;
+
+}
+#userform>div:nth-child(5)>span{
+        width: 124px;
+        height: 36px;
+        display: inline-block;
+        background: #1a83e5;
+        margin: 3px 3px 0 0;
+        font-size: 28px;
+        color: #fff;
+        text-align: center;
+}   
+#userform>div>input{
+    height: 40px;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    margin-left: 36px;  
+}
+#userform>div:nth-child(6){
+    margin-bottom: 12px;
+    padding-bottom: 5px;
+}
+#userform>div:nth-child(6)>a{
+    background: #e5e5e5;
+    display: inline-block;
+    width: 84px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+}
+#userform>div:nth-child(7){
+border: 0;
+padding: 0;
+}
+#userform>div:nth-child(7)>div{
+    width: 12px;
+    height: 12px;
+  border:1px solid #ccc;
+  display: inline-block;
+}
+#userform>div:nth-child(7)>span{
+    margin: -3px 0 0 6px;
+}
+#userform>button{
+    width: 400px;
+    line-height: 44px;
+    font-size: 28px;
+    color: #fff;
+    background: #da251c;
+    outline: none;
+    border: 0;
+    margin-bottom: 38px;
+}

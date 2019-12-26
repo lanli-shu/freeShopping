@@ -1,0 +1,516 @@
+
+
+/*加入购物车 */
+
+#add-cart {
+    width: 100%;
+    height: 586px;
+    background: #f2f2f2;
+    padding-top: 10px;
+}
+
+#add-cart .container>div>.active {
+    font-size: 24px;
+}
+
+#add-cart .container>div {
+    margin-bottom: 10px;
+}
+
+/* 购物车/放大镜 */
+#add-cart .add-cart-conte {
+    height: 480px;
+    background: #fff;
+    padding: 10px 22px 22px;
+}
+
+/*放大镜  */
+#add-cart .search {
+    width: 342px;
+    height: 450px;
+    position: relative;
+}
+
+#add-cart .search ul {
+    width: 305px;
+    /* padding-left: 37px;
+    margin: 20px 0 20px 0; */
+}
+
+#add-cart .search li {
+    width: 54px;
+    height: 54px;
+    float: left;
+}
+
+#add-cart .search li>div {
+    height: 38px;
+    width: 38px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+#add-cart .search li>div>img {
+    width: 100%;
+}
+
+#add-cart .search li.active {
+    border: 2px solid #da251c;
+}
+
+#add-cart .search span {
+    /* position: absolute; */
+    width: 23px;
+    height: 38px;
+    top: 416px;
+}
+
+#add-cart .search .left {
+    background: url(../images/left-icon-car.png) no-repeat center;
+}
+
+#add-cart .search .right {
+    background: url(../images/right-icon-car.png) no-repeat center;
+}
+
+#add-cart .search>p {
+    font-size: 16px;
+    color: #646464;
+    text-align: center;
+}
+/* .add-cart-conte>p:nth-child(2) {
+    font-size: 16px;
+    color: #646464;
+    text-align: center;
+    display: inline-block;
+} */
+
+/* 购物车 */
+#add-cart .cart {
+    width: 810px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+#add-cart .cart>h2 {
+    font-weight: normal;
+    color: #343434;
+    margin: 0 0 17px 12px;
+}
+
+#add-cart .cart>p {
+    font-size: 18px;
+    color: #fb2f2f;
+    margin: 0 0 17px 12px;
+}
+
+#add-cart .cart>span {
+    font-size: 16px;
+    color: #818181;
+    margin: 0 0 17px 12px;
+}
+
+#add-cart .cart>.box {
+    background: #f5f5f5;
+    width: 794px;
+    height: 112px;
+    margin: 17px 0;
+    padding: 14px 0 14px 16px;
+    position: relative;
+}
+
+#add-cart .cart>.box>p {
+    font-size: 16px;
+    color: #6c6c6c;
+    margin-bottom: 16px;
+}
+
+#add-cart .cart>.box>p:first-child>span {
+    font-size: 24px;
+    color: #fb2f2f;
+    font-weight: 700;
+}
+
+#add-cart .cart>.box>p:first-child>em {
+    text-decoration: line-through;
+    color: #6c6c66;
+}
+
+#add-cart .cart>.box>p:nth-child(2)>span {
+    font-size: 16px;
+    color: #fb2f2f !important
+}
+
+#add-cart .cart>.box>p:nth-child(3)>span {
+    display: inline-block;
+    width: 94px;
+    color: #fff;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin-right: 14px;
+    background: url(../images/Q.png)no-repeat center;
+}
+#add-cart .cart>.box .comment{
+    width: 70px;
+    height: 40px;
+    border-left: 2px solid #ccc;
+    padding-left: 6px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+#add-cart .cart>.tab {
+    font-size: 16px;
+    color: #4c4c4c;
+    margin: 0 0 42px 16px;
+}
+
+#add-cart .cart>.tab span {
+    font-size: 16px;
+    display: inline-block;
+    width: 100px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+}
+
+#add-cart .cart>.tab span.active {
+    border: 2px solid #da251c;
+    background: url(../images/tab-active.png) no-repeat 84px 20px;
+}
+
+#add-cart .cart>div:nth-child(6) {
+    margin-bottom: 18px;
+}
+
+#add-cart .cart>div:nth-child(6)>.count {
+    width: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin: 10px 45px 0 34px;
+   
+    text-align: center;
+    position: relative;
+}
+
+#add-cart .cart>div:nth-child(6)>.count>span {
+    width: 20px;
+    border: 1px solid #ccc;
+    background: #e6e6e6;
+    
+    
+}
+#add-cart .cart>div:nth-child(6)>.count>span:nth-child(2){
+    right: -22px;
+    top: 20px;
+    position: absolute;
+}
+#add-cart .cart>div:nth-child(6)>.count>:first-child {
+    right: -22px;
+    top: -1px;
+    position: absolute;
+}
+#add-cart .cart>div:nth-child(6)>button {
+    width: 190px;
+    height: 60px;
+    background: #da251c;
+    font-size: 26px;
+    color: #fff;
+    border: 0;
+    outline: none;
+}
+
+#add-cart .cart>p:nth-child(7) {
+    font-size: 16px;
+    color: #808080;
+}
+
+/* 人气单品 */
+#content .recommend {
+    margin: 6px 0 40px 0;
+}
+
+#content .recommend>p {
+    border-bottom: 6px solid #da251c;
+}
+
+#content .recommend>p>span {
+    font-size: 24px;
+    display: inline-block;
+    width: 220px;
+    line-height: 48px;
+    text-align: center;
+}
+
+#content .recommend-conte li {
+    width: 208px;
+    height: 256px;
+    float: left;
+    margin: 0px 0 18px 40px;
+    padding-top: 12px;
+}
+
+#content .recommend-conte li:nth-child(6) {
+    margin-left: 0;
+}
+
+#content .recommend-conte li:first-child {
+    margin-left: 0;
+}
+
+#content .recommend-conte li>img {
+    margin-left: 22px;
+}
+
+#content .recommend-conte li>:nth-child(2) {
+    display: inline-block;
+    width: 63px;
+    line-height: 25px;
+    background: url(../images/biaoqian.png) no-repeat;
+    margin: 3px 0 4px -2px;
+    padding-left: 22px;
+    color: #fff;
+}
+
+#content .recommend-conte li>p {
+    margin: 0 7px;
+}
+#content .recommend-conte li>p:nth-of-type(2) {
+    color: #f4290d;
+}
+#content .recommend-conte li>:last-child {
+    margin: 0 3px;
+    font-size: 24px;
+    color: #f4290d;
+}
+
+/* 选中状态 */
+#content .recommend-conte>.active {
+    background: #f2f2f2;
+}
+
+/* 产品详情 */
+#content .product-details>div:first-child {
+    width: 316px;
+   
+    border: 1px solid #ccc;
+}
+#content .product-details>div:first-child>h2{
+    background: #f4f4f4;
+    color: #666666;
+    line-height: 40px;
+    text-indent: 1em;
+    font-weight: normal;
+}
+#content .product-conte li {
+    width: 178px;
+    height: 254px;
+    margin: 0px 0 20px 14px;
+    border-bottom: 1px solid #cccc;
+    padding: 28px 56px;
+
+}
+#content .product-conte li:last-child{
+    margin-bottom: 0;
+    border: 0;
+}
+#content .product-conte li>img {
+    margin-left: 22px;
+}
+#content .product-conte li>:nth-child(2) {
+    display: inline-block;
+    width: 63px;
+    line-height: 25px;
+    background: url(../images/biaoqian.png) no-repeat;
+    margin: 3px 0 4px -2px;
+    padding-left: 22px;
+    color: #fff;
+}
+
+#content .product-conte li>p {
+    margin: 0 7px;
+}
+#content .product-conte li>p:nth-of-type(2) {
+    color: #f4290d;
+}
+#content .product-conte li>:nth-child(5){
+    margin: 0 3px;
+    font-size: 24px;
+    color: #f4290d;
+}
+#content .product-conte li>:last-child{
+    text-decoration: line-through;
+    font-size: 24px;
+    margin-left: 24px;
+    color: #c0c0c0;
+
+}
+#content .product-details>div:nth-child(2) {
+    width: 856px;
+  
+}
+#content .product-details .title{
+    width: 841px;
+    border-bottom: 6px solid #da251c;
+  
+}
+#content .product-details .title a{
+    font-size: 24px;
+    display: inline-block;
+    text-align: center;
+    padding: 12px;
+    
+}
+#content .product-details .praise{
+    height: 172px;
+    box-sizing: border-box;
+    padding: 12px 0;
+}
+#content .product-details .praise .ft{
+    width: 180px;
+    font-size: 72px;
+    color: #f4290d;
+    padding-left: 8px;
+    text-align: right;
+}
+#content .product-details .praise .ft>p{
+    font-size: 20px;
+    color: #999999;
+    text-align: right;
+}
+#content .product-details .praise .fr{
+    width: 640px;
+    margin-top: 26px; 
+}
+.product-details .praise .fr>div{
+    font-size: 16px;
+   margin-bottom: 14px;
+   color: #666666;
+}
+.product-details .praise .fr>div>span{
+    display: inline-block;
+    color: #666666;
+}
+.product-details .praise .fr .progress{
+    display: inline-block;
+    width: 150px;
+    height: 16px;
+    background: #e6e6e6; 
+    margin-right: 30px;
+}
+.product-details .praise .fr .progress>span{
+    width: 140px;
+    height: 16px;
+   background: #fb2f2f;
+   display: inline-block;
+}
+.product-details .praise .fr>div>span:first-child{
+    width: 70px;
+    margin-right: 6px;
+}
+.product-details .praise .fr>div .num{
+    margin: 0 46px;
+}
+.product-details .fr ul{
+    background: #f5f5f5;
+    height: 30px;
+}
+.product-details .fr ul>li{
+    margin-left: 34px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #666666;
+ float: left;
+}
+.product-details .fr ul>li.active{
+    color: #f4290d;
+}
+.product-details .fr .comments{
+    display: none;
+}
+.product-details .fr .comments .comment{
+    height: 145px;
+    border-bottom: 2px solid #f5f5f5;
+    padding: 30px 16px 6px 16px;
+}
+.product-details .fr .comments .comment .ft:first-child{
+    width: 158px;
+    margin-left: 16px;
+}
+.product-details .fr .comments .comment .ft:first-child>img{
+    margin-bottom: 6px;
+}
+.product-details .fr .comments .comment .ft:first-child>p{
+    color: #a6a6a6;
+    margin-bottom: 4px;
+}
+.product-details .fr .comments .comment .ft:nth-child(2){
+    width: 480px;
+   color: #666666;
+}
+.product-details .fr .comments .comment .fr>div{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #ccc;
+    overflow: hidden;
+    float: left;
+}
+.product-details .fr .comments .comment .fr img{
+    width: 100%;
+}
+.product-details .fr .comments .comment .fr span{
+    display: inline-block;
+    margin: 6px 10px;
+    color: #808080;
+}
+.product-details .comment .fr>p{
+    color: #808080;
+    margin: 4px 0;
+}
+.product-details .fr .comments .comment  .member{
+    color: #f5bc30;
+}
+.product-details .fr .comments ol{
+    margin-top: 26px;
+    text-align: right;
+}
+.product-details .fr .comments ol>li{
+    display: inline-block;
+    width: 32px;
+    line-height: 32px;
+    background: #fafafa;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+}
+.product-details .fr .comments ol>li:nth-last-child(2){
+    background:none;
+    border:0;
+}
+.product-details .fr .comments ol>li:last-child{
+    width: 64px;
+}
+.product-details .fr .comments ol>li.active{
+    border: 0;
+    color: #fb2f2f;
+    background: none;
+}
+
+/* 商品介绍 */
+.goods{
+    /* display: none; */
+}
+.product-details .fr .goods{
+    padding: 10px 47px 0 60px;
+}
+.product-details .fr .goods h4{
+    margin: 38px 0 8px;
+    font-weight: 400;
+}
+.product-details .fr .goods p {
+    line-height: 30px;
+}

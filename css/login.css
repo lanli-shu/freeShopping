@@ -1,0 +1,141 @@
+/* 头部 */
+#header>div>a {
+    margin-left: 272px; 
+}
+/* 导航 */
+#nav .wrap{
+font-size: 30px;
+color: #666666;
+}
+/* bander */
+#banner{
+  margin: 27px 0 30px ;
+     width: 100%;
+    height: 500px;
+    background: url(../images/login-bg.png);
+    min-width: 1200px;
+}
+#banner .container{
+    position: relative;
+    height: 500px;
+}
+#banner .container>div{
+    width: 350px;
+    height: 370px;
+    background: #fff;
+    position: absolute;
+    right: 102px;
+    top: 50%;
+    margin-top: -185px;
+}
+#banner .container .lore{
+    border-bottom: 1px solid #f6f6f6;
+    line-height: 46px;
+    padding-top: 10px;
+}
+.container  .lore>#login{ 
+    border-right:1px solid #f6f6f6 ;
+}
+.container .lore >a{
+    height: 24px; 
+    font-size: 22px;
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    text-decoration: none;
+    color: #666666;
+   
+}
+.container .con >.on>img:first-child{
+   margin: 0 12px 0 100px;
+  
+}
+.container .con >.on>img:nth-child(2) {
+display: none;
+height: 147px;
+}
+
+
+
+
+
+.container .lore>.active{
+    color: #da251c;
+}
+.container .con .on{
+    /* padding:0 8px 0 30px; */
+    margin-top: 55px;
+    display: none;
+}
+
+.container .con .on>p{
+    margin-top: 30px;
+    text-align: center;
+    /* margin-left: -20px; */
+}
+#userform{
+    margin: 42px 0 24px 30px;
+}
+#userform>div{
+    width: 290px;
+    height: 40px;
+    border: 1px solid #ccc;
+     margin-bottom: 16px;
+}
+#userform>div>span{
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+}
+#userform>div:first-child>span:first-child{
+   background: url(../images/user.png) no-repeat center ;
+ }
+ #userform>div:first-child>span:last-child{
+    background: url(../images/X.png) no-repeat center ;
+  }
+ #userform>div>input{
+    width: 200px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    margin-left: 8px;
+    text-align: left;
+ }
+ #userform>div:nth-child(2)>span:first-child{
+    background: url(../images/pas.png) no-repeat center ;
+  }
+
+  #userform>div:nth-child(3){
+      border: 0;
+      margin-bottom: 0px;
+     
+  }
+  #userform>div:nth-child(3)>div{
+     width: 12px;
+      height: 12px;
+    border:1px solid #ccc;
+    display: inline-block;
+  }
+  #userform>div:nth-child(3)>span{
+      width: 80px;
+      height: 20px;
+      margin: -3px 0 0 6px;
+  }
+  #userform button{
+      width: 290px;
+      font-size: 24px;
+      color: #fff;
+      background: #da251c;
+      border: 0;
+      outline: none;
+      line-height: 40px;
+  }
+  .container .con >div:nth-child(2)>div{
+    border-top: 1px solid #ccc;
+    text-align: center;
+    background: url(../images/right.png) no-repeat 119px 19px;
+    color: #da251c;
+    font-size: 20px;
+    line-height: 50px;
+    padding-left: 9px;
+  }

@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* banner */
+.c-banner{
+    width: 1000px;
+    height: 460px;
+	/* width: 100%;*/
+	position: relative; 
+}
+.c-banner img{
+	width: 100%;
+}
+.c-banner .banner ul{
+	list-style: none;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+.c-banner .banner ul li{
+	position: absolute;
+	display: none;
+	opacity: 0;
+}
+.c-banner .banner ul li:nth-child(1){
+	opacity: 1;
+	display: block;
+}
+.c-banner .banner ul li img{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+.c-banner .banner ul li:first-child img{
+	position: relative;
+}
+.c-banner .nexImg,.c-banner .preImg{
+	padding: 25px 10px 25px 10px;
+	position: absolute;
+	top: 50%;
+	margin-top: -53px;
+	background: #000000;
+	opacity: 0.5;
+	z-index: 10;
+	
+}
+.c-banner .nexImg:hover,.c-banner .preImg:hover{
+	opacity: 0.8;
+}
+.c-banner .nexImg{
+	right: 0px;
+}
+/* .c-banner .nexImg img,.c-banner .preImg img{
+	
+	
+} */
+.c-banner .jumpBtn{
+	width: 100%;
+	position: absolute;
+	bottom: -38px;
+	text-align: center;
+}
+.c-banner .jumpBtn ul{
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+.c-banner .jumpBtn ul li{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: inline-block;
+	/* background-color: white; */
+	opacity: 0.9;
+	margin-left: 10px;
+}
+.c-banner .jumpBtn ul li:first-child{
+	margin-left: 0px;
+}
+@media screen and (max-width:768px) {
+	.c-banner{
+		width: 100%;
+		height: 345px;
+		overflow: hidden;
+	}
+	.c-banner .banner ul li img{
+		width: 768px;
+		height: 345px;
+		position: absolute;
+		left: 50%;
+		margin-left: -384px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * jQuery图片轮播(焦点图)插件
+ * ADD.JENA.201206291027
+ * EDIT.JENA.201206300904
+ * Author: jena
+ * Demo: http://ishere.cn/demo/jquery.slidebox/
+ */
+div.slideBox{ position:relative; width:670px; height:300px; overflow:hidden;}
+div.slideBox ul.items{ position:absolute; float:left; background:none; list-style:none; padding:0px; margin:0px;}
+div.slideBox ul.items li{ float:left; background:none; list-style:none; padding:0px; margin:0px;}
+div.slideBox ul.items li a{ float:left; line-height:normal !important; padding:0px !important; border:none/*For IE.ADD.JENA.201206300844*/;}
+div.slideBox ul.items li a img{ margin:0px !important; padding:0px !important; display:block; border:none/*For IE.ADD.JENA.201206300844*/;}
+div.slideBox div.tips{ position:absolute; bottom:0px; width:100%; height:50px; background-color:#000; overflow:hidden;}
+div.slideBox div.tips div.title{ position:absolute; left:0px; top:0px; height:100%;}
+div.slideBox div.tips div.title a{ color:#FFF; font-size:18px; line-height:50px; margin-left:10px; text-decoration:none;}
+div.slideBox div.tips div.title a:hover{ text-decoration:underline !important;}
+div.slideBox div.tips div.nums{ position:absolute; right:0px; top:0px; height:100%;}
+div.slideBox div.tips div.nums a{ display:inline-block; >float:left/*For IE.ADD.JENA.201206300844*/; width:20px; height:20px; background-color:#FFF; text-indent:-99999px; margin:15px 10px 0px 0px;}
+div.slideBox div.tips div.nums a.active{ background-color:#093;}
+
+#demo1 {
+	width: 328px;
+	height: 222px;
+}
+#demo1 >.items{
+	width: 328px;
+	height: 222px;
+}
+#demo1 .tips{
+	background: transparent;
+}
+ #demo1 .nums a{
+	width: 14px; height: 2px; 
+	
+}
+#demo1 .nums {
+	top:25px;
+	left: 36%;
+    /* bottom: -23px !important; */
+} 
+#demo2 {
+	width: 425px;
+	height: 340px;
+}
+#demo2 >.items{
+	width: 425px;
+	height: 340px;
+}
+
+
+#demo2 .tips{
+	background: transparent;
+}
+ #demo2 .nums a{
+	width: 14px; height: 2px; 
+	
+}
+#demo2 .nums {
+	top:25px;
+	left: 45%;
+    /* bottom: -23px !important; */
+}
+#demo3 {
+	width: 425px;
+	height: 340px;
+}
+#demo3 >.items{
+	width: 425px;
+	height: 340px;
+}
+
+
+#demo3 .tips{
+	background: transparent;
+}
+ #demo3 .nums a{
+	width: 14px; height: 2px; 
+	
+}
+#demo3 .nums {
+	top:25px;
+	left: 45%;
+    /* bottom: -23px !important; */
+}
+#demo4 {
+	width: 425px;
+	height: 340px;
+}
+#demo4 >.items{
+	width: 425px;
+	height: 340px;
+}
+
+
+#demo4 .tips{
+	background: transparent;
+}
+ #demo4 .nums a{
+	width: 14px; height: 2px; 
+	
+}
+#demo4 .nums {
+	top:25px;
+	left: 45%;
+    /* bottom: -23px !important; */
+}

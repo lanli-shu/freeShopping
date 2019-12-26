@@ -1,0 +1,315 @@
+/* 头部 */
+#header>div>a {
+    margin-left: 272px; 
+}
+/* 导航 */
+#nav{
+    margin-bottom:54px ;
+}
+#nav .wrap .search {
+    position: absolute;
+    top: 0;
+    left: 758px;
+}
+#nav .search  span{
+    float: right;
+    margin: 23px 200px 0 0;
+
+}
+
+
+/* 购物车内容 */
+#order-conte>h2{
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 6px;
+}
+.order{
+   height: 60px;
+    color: #808080;
+   padding: 0 15px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+.order>span{
+    color: #808080;
+    font-size: 18px;
+    line-height: 60px;
+}
+.order>.fr{
+    color: #1080e9;
+}
+.cargo{
+   margin-bottom: 45px;
+}
+.cargo>.loca{
+    font-size: 18px;
+    color: #4c4c4c;
+    margin-left: 14px;
+}
+.cargo>span:first-child{
+    line-height: 34px;
+    text-align: center;
+    font-size: 18px;
+    color: #4c4c4c;
+    width: 125px;
+   margin: 0 19px 0 44px;
+    display: inline-block;
+    border: 2px solid #da251c;
+    background: url(../images/tab-active.png)no-repeat 110px 20px;
+}
+.cargo>.user{
+    margin-left: 66px;
+}
+.cargo>span:last-child{
+    width: 120px; 
+    background: #999;
+    display: inline-block;
+    margin-left: 77px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+#order-conte>span{
+    font-size: 18px;
+    color: #4c4c4c;
+    margin-left: 44px;
+    margin: 0  0 16px 44px;
+    display: inline-block;
+}
+#order-conte p{
+    font-size: 18px;
+    color: #4c4c4c;
+    margin-left: 44px;
+    margin: 0  0 16px 18px;
+}
+#order-conte .add{
+    width: 16px;
+   height: 16px;
+   display: inline-block;
+background:url(../images/add.png)no-repeat center;   
+}
+#order-conte .spare{
+    border: 2px solid #e6e6e6;
+    background: none;
+}
+#order-conte .pay{
+     margin-bottom: 45px;   
+}
+ 
+#order-conte .pay>span{
+    line-height: 34px;
+    text-align: center;
+    font-size: 18px;
+    color: #4c4c4c;
+    width: 125px;
+     margin-right: 16px;
+    display: inline-block;
+    border: 2px solid #e6e6e6;
+   
+}
+#order-conte .order>.price{
+    margin-right: 55px;
+}
+#order-conte .pay>span:first-child{
+    margin-left: 44px;
+}
+#order-conte .pay>a{
+    font-size: 18px;
+    margin-left: 34px;
+}
+#order-conte .pay>span.active{
+    border: 2px solid #da251c;
+    background: url(../images/tab-active.png)no-repeat 110px 20px;  
+}
+.delivery{
+    margin: -8px 0 18px 0;
+    border-bottom: 2px solid #e5e5e5;
+    padding-bottom: 12px;
+}
+.delivery .ft{
+    width: 464px;
+}
+.delivery .ft>span{
+    line-height: 34px;
+    text-align: center;
+    font-size: 18px;
+    color: #4c4c4c;
+    width: 125px;
+   margin: 0 19px 44px 44px;
+    display: inline-block;
+    border: 2px solid #da251c;
+    background: url(../images/tab-active.png)no-repeat 110px 20px;
+}
+#order-conte .delivery>.ft>p{
+    margin-top: 24px;
+}
+#order-conte .delivery>.ft>div>.fr{
+    margin-right: 18px;
+    color: #1080e9;
+
+}
+#order-conte .delivery>.ft>div,.invoice{
+    color: #999999;
+    margin:0 0 20px 18px;
+    font-size: 18px;
+    
+}
+#order-conte .delivery>.ft>div>span{
+    font-size: 18px;
+
+}
+.delivery>.fr{
+    width: 692px;
+    height: 233px;
+    background: #f2f2f2;
+    padding: 10px 22px;
+}
+.delivery>.fr>div{
+    width: 112px;
+    height: 112px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-right: 52px;
+}
+.delivery>.fr>div>img{
+    width: 100%;
+}
+.delivery>.fr>span:nth-child(2){
+    font-size: 16px;
+}
+.delivery>.fr>span:nth-child(3){
+    margin: 0 60px 0 76px;
+    font-size: 20px;
+    color: #f4290d;
+
+}
+.delivery>.fr>span:nth-child(4){
+    margin-right: 108px;
+    font-size: 18px;
+}
+.delivery>.fr>span:last-child{
+    font-size: 18px;
+}
+.invoice{
+    width: 402px;
+    margin-left: 18px;
+}
+.invoice>span{
+    font-size: 18px;
+    color: #999999;
+}
+.invoice>span:last-child{
+    color: #1080e9;
+}
+
+
+
+.settl{
+    line-height: 60px;
+    color: #808080;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin: 36px 0 0 0;
+}
+.settl>span{
+    color: #808080;
+    font-size: 16px;
+}
+.settl>span>b{
+    font-size: 22px;
+    font-weight: 400;
+}
+.settl>span:first-child{
+    margin: 0 30px;
+}
+.settl>span:nth-child(2){
+    margin-right: 86px
+}
+.settl>span:nth-child(3){
+    margin-right: 86px;  
+}
+.settl>span.money{
+    margin-right: 70px;  
+    line-height: 59px;
+    color: #4c4c4c;
+    font-weight: 700;
+}
+.settl button{
+    width: 128px;
+    font-size: 26px;
+    line-height: 60px;
+    outline: none;
+    border:0;
+    float: right;
+
+}
+.del{
+    margin-right: 10px;
+}
+ /* 下拉框 */
+.option {
+    /*用div的样式代替select的样式*/
+
+    width: 345px;
+    height: 22px;
+    /*border-radius: 5px;*/
+    /*盒子阴影修饰作用,自己随意*/
+    /* box-shadow: 0 0 5px #ccc;*/
+    border: 1px solid #cccccc;
+    /* position: absolute;
+    right: 18px; */
+    margin-top: 14px;
+    display: inline-block;
+}
+
+.option select {
+    /*清除select的边框样式*/
+    border: none;
+    /*清除select聚焦时候的边框颜色*/
+    outline: none;
+    /*将select的宽高等于div的宽高*/
+    width: 100%;
+    line-height: 22px;
+    /*隐藏select的下拉图标*/
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /*通过padding-left的值让文字居中*/
+    padding-left: 16px;
+}
+
+/*使用伪类给select添加自己想用的图标*/
+.option:after {
+    content: "";
+    width: 14px;
+    height: 8px;
+    background: url(../images/arrow.png) no-repeat center;
+    position: absolute;
+    right: 12px;
+    top: 41%;
+    /*给自定义的图标实现点击下来功能*/
+    pointer-events: none;
+} 
+.loc{
+    height: 60px;
+}
+.loc button{
+    width: 140px;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    border: 0;
+    outline: none;
+    font-size: 26px;
+
+}
+
+
+
+
+
+
+
+
